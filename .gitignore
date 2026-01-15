@@ -1,0 +1,17 @@
+# Ignore virtual env
+venv/
+.env
+timesfm_env/
+
+# Ignore pycache
+__pycache__/
+*.pyc
+
+# Ignore data
+*.csv
+*.xlsx
+*.zip
+*.png
+
+# Ignore downloaded models (they will be re-downloaded on the cloud)
+/hf_models/
