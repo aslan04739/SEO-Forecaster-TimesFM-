@@ -1,8 +1,8 @@
-streamlit
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+jax[cpu]
+timesfm
 pandas
 numpy
 matplotlib
 huggingface_hub
-timesfm
-# Install CPU-only version of torch to save memory/disk space on Cloud
-torch --index-url https://download.pytorch.org/whl/cpu
